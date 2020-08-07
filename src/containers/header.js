@@ -24,10 +24,10 @@ class Header extends Component {
 
             <div className="row header-content" style={{ marginTop: '0em' }}>
                     <div className="col-lg-4">
-                        <img src={require('../images/retailIcon.png')} alt='logo' className="logo"></img>
+                        <img src={require('../images/leslipools.jpg')} alt='logo' className="logo"></img>
                     </div>
                     <div className="col-lg-2" style={{ paddingTop: 20 + "px" }}>
-                        <span>Home</span>
+                        <span>Home new </span>
                     </div>
                     <div className="col-lg-2" style={{ paddingTop: 20 + "px" }}>
                         <span>Contacts</span>
@@ -43,6 +43,7 @@ class Header extends Component {
                             <span class="badge badge-light">{this.state.cartCount}</span>
                         </Link>
                     </div>
+                    
                 </div>
             
         )

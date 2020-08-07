@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
           
             <div className="Footer">
-            <p style={{ paddingTop: '10px' }}>&copy; thefamousretailers</p>
+            <p style={{ paddingTop: '10px' }}>&copy; lesliespool</p>
         </div>
 
         )

@@ -23,6 +23,13 @@
     object-fit: contain;
 }
 
+.header-bg{
+  background-color:rgb(21, 24, 156) ;
+}
+#headerfont{
+  color: #fff;
+}
+
 .product-data-sub {
     text-align: left;
     border-radius: 1em;

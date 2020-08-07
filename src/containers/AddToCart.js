@@ -28,12 +28,12 @@ export default function AddToCart({ product, cartCount, handleClose, onAddToCart
                     <img src={require('../images/' + product.image)} alt='logo' className="product-img" style={{ height: '400px' }}></img>
                 </div>
                 <div class="d-flex justify-content-around mt-3">
-                    <div class="text-nowrap">
+                    {/* <div class="text-nowrap">
                         Select Size <br></br>
                         <button type="button" class="btn btn-outline-dark mr-2">S</button>
                         <button type="button" class="btn btn-dark mr-2">M</button>
                         <button type="button" class="btn btn-outline-dark">L</button>
-                    </div>
+                    </div> */}
                     <div class="text-nowrap">
                         Quantity <br />
                         <div class="input-group mb-3">

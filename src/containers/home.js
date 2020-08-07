@@ -55,23 +55,24 @@ class Home extends React.Component {
 
     return (
 
-      <div className="App">
+      <div className="App" >
 
 
-        <Navbar bg="light" expand="lg" className="bg-white">
-          <Navbar.Brand href="#home">
-            <img src={require('../images/retailIcon.png')} alt='logo' style={{ width: '150px' }}></img>
+
+        <Navbar  expand="lg" className="header-bg" >
+          <Navbar.Brand href="#home" >
+            <img src={require('../images/leslipools.jpg')} alt='logo' style={{ width: '200px', height:"40px" }}></img>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto ml-4">
-              <Nav.Link href="#home" className="text-secondary mr-4">Home</Nav.Link>
-              <Nav.Link href="#link" className="text-secondaryo mr-4">Contacts</Nav.Link>
+          <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+          <Navbar.Collapse id="basic-navbar-nav"   >
+            <Nav className="mr-auto ml-4" >
+              <Nav.Link href="#home" className="text-secondary mr-4"><span style={{color:"white"}}>Home</span></Nav.Link>
+              <Nav.Link href="#link" className="text-secondary mr-4" ><span style={{color:"white"}}>Contacts</span></Nav.Link>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link href="#home" className="text-secondary">Sign In</Nav.Link>
-              <button class="btn btn-outline-primary ml-4" style={{ borderRadius: '20px' }}>
-                <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
+              <Nav.Link href="#home" className="text-secondary"><span style={{color:"white"}}>Sign In</span></Nav.Link>
+              <button class="btn btn-outline-primary ml-4" style={{ borderRadius: '20px',color:"white" }}>
+                <i class="fa fa-shopping-cart mr-2" aria-hidden="true" style={{color:"white"}}></i>
                 {this.state.cartCount || 0}
               </button>
 
@@ -95,15 +96,15 @@ class Home extends React.Component {
           <div className="col-lg-2">
             <span>Sign-In</span>
           </div>
-
+style={{ backgroundImage: "url(" + BackgroundImg + ")", backgroundRepeat: "no-repeat" }
+        }
           <div className="col-lg-2">
             <img src={require('../images/cart.svg')} alt="cart" />
             <span class="badge badge-light">{this.state.cartCount}</span>
           </div>
         </div> */}
 
-        < div className="container-fluid" style={{ backgroundImage: "url(" + BackgroundImg + ")", backgroundRepeat: "no-repeat" }
-        }>
+        < div className="container-fluid" style={{background:"rgb(240, 240, 240)"}}>
           <div className="row">
             <div className="col-lg-12 video-box">
               <iframe height="500" width="80%" frameBorder="0" title="videoStream" allow="fullscreen" style={{ borderRadius: 10 + "px" }}
@@ -149,7 +150,7 @@ class Home extends React.Component {
           </div>
         </div >
         <div className="Footer">
-          <p>&copy; thefamousretailer</p>
+          <p>&copy; lesliespool</p>
         </div>
       </div >
 
