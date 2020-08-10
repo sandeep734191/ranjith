@@ -66,7 +66,7 @@ class Home extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav"  />
           <Navbar.Collapse id="basic-navbar-nav"   >
             <Nav className="mr-auto ml-4" >
-              <Nav.Link href="#home" className="text-secondary mr-4"><span style={{color:"white"}}>Home </span></Nav.Link>
+              <Nav.Link href="#home" className="text-secondary mr-4"><span style={{color:"white"}}>Profile</span></Nav.Link>
               <Nav.Link href="#link" className="text-secondary mr-4" ><span style={{color:"white"}}>Contacts</span></Nav.Link>
             </Nav>
             <Nav className="ml-auto">
